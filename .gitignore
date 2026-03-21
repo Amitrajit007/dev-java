@@ -1,4 +1,3 @@
-notes.md
 # Java compiled files
 *.class
 *.jar
@@ -23,3 +22,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+# personal
+notes.md
+plan.md
+test/

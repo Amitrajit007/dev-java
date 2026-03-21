@@ -7,7 +7,7 @@ public class first {
         // Generate random numbers
         int randomInt = random.nextInt(100);
         double randomDouble = random.nextDouble();
-        
+          
         System.out.println("Random Integer (0-99): " + randomInt);
         System.out.println("Random Double (0.0-1.0): " + randomDouble);
         
