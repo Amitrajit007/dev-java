@@ -35,3 +35,53 @@ public class Student {
     String name;
 }
 ```
+
+
+## 5. **Taking Input Through Command Line**
+Passing data to a program through command-line arguments.
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(args[0]);  // args[0] is first argument
+    }
+}
+// Run: java Main HelloWorld
+```
+
+## 6. **Abstraction**
+Hiding implementation details and showing only essential features to the user.
+
+```java
+public abstract class Animal {
+    abstract void makeSound();  // Hide how sound is made
+    // have to override this in the cild mandetory.
+}
+```
+
+
+## 7. **Encapsulation**
+Bundling data and methods together, controlling access using access modifiers (private, public, protected).
+
+```java
+public class BankAccount {
+    private double balance;  // Hide balance from direct access
+    
+    public void deposit(double amount) {
+        balance += amount;
+    }
+}
+```
+
+## 8. **Inheritance**
+A class (child) inherits properties and methods from another class (parent).
+
+```java
+public class Vehicle {
+    void start() { }
+}
+
+public class Car extends Vehicle {
+    // Car inherits start() method
+}
+`
